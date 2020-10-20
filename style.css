@@ -1,0 +1,215 @@
+.body {
+  background-color: #f3f3f3;
+  position: relative;
+}
+#dompet,
+#close,
+#close2,
+#toggle {
+  cursor: pointer;
+}
+.main {
+  max-width: 375px;
+  background-color: white;
+  height: 100%;
+  position: relative;
+  margin: auto;
+  /* border: 1px solid black; */
+  /* filter: blur(20px); */
+}
+
+.header {
+  padding: 15px 25px;
+  width: 100%;
+  height: 250px;
+  position: relative;
+  background-color: #86a52b;
+}
+
+.shape1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.shape2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  padding: 15px 25px;
+  width: 100%;
+  margin-top: 60px;
+  background-color: white;
+}
+
+.header .text-brand {
+  font-size: 13px;
+  color: white;
+  font-weight: 500;
+}
+
+.text-navbar {
+  background-color: #ffffff21;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.text-navbar span {
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+.card-head {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0px 3px 10px #00000050;
+}
+
+.card-head .h1 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #678021;
+}
+
+.card-head .h2 {
+  font-size: 13px;
+  font-weight: bold;
+  color: #678021;
+}
+
+.hr-dashed {
+  border-top: 2px dashed #888;
+}
+
+/* transaksi */
+.btn-danger .btn-primary {
+  font-size: 11px;
+}
+
+.h3 {
+  color: black;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.btn-danger {
+  background-color: #de7240;
+}
+
+.btn-danger:hover {
+  background-color: #d65518;
+}
+
+.btn-green {
+  font-size: 17px;
+  color: white;
+  background-color: #86a52b;
+  width: 100%;
+  height: 51px;
+  font-weight: bold;
+}
+
+.btn-green:hover {
+  color: white;
+}
+
+/* card histori */
+.card-history {
+  background-color: #ffffff;
+  box-shadow: 0px 3px 10px #00000013;
+  height: 64px;
+  width: 100%;
+}
+
+.card-history .h1 {
+  font-size: 15px;
+}
+.card-history .h2 {
+  font-size: 10px;
+}
+.card-history .h3 {
+  font-size: 12px;
+}
+
+/* wallet */
+.main2 {
+  display: none;
+  position: absolute;
+  width: 375px;
+  height: 100vh;
+  left: 50%;
+  top: 0;
+  padding: 0 30px 30px 30px;
+  background-color: #0000003b;
+  transform: translate(-50%);
+}
+
+.text-close {
+  color: white;
+  font-size: 15px;
+}
+
+.btn-tambah {
+  background-color: white;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.card-dompet {
+  padding: 15px;
+  display: flex;
+  background-color: white;
+}
+
+.card-dompet .h1 {
+  font-size: 22px;
+  color: black;
+}
+
+.card-dompet .h2 {
+  font-size: 15px;
+  color: black;
+}
+
+/* main 3 */
+.main3 {
+  display: none;
+  position: absolute;
+  width: 375px;
+  height: 100vh;
+  left: 50%;
+  top: 0;
+  padding: 0 30px 30px 30px;
+  background-color: #0000003b;
+  transform: translate(-50%);
+  color: white;
+}
+
+.text-close {
+  color: white;
+  font-size: 15px;
+}
+
+.btn-menu {
+  color: #888;
+  font-weight: bold;
+  padding: 5px 20px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.hr-bar {
+  width: 100%;
+  height: 4px;
+  background-color: white;
+}
